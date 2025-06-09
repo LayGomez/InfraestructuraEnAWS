@@ -22,4 +22,7 @@ Este proyecto busca diseñar una arquitectura segura en la nube utilizando Amazo
 
 Para garantizar la máxima seguridad y privacidad de la infraestructura, el primer paso fundamental es crear una Nube privada Virtual (VPC) en AWS. Esta VPC funcionará como nuestro entorno aislado en la nube donde se despliegan todos los recursos del proyecto. 
 El siguiente diagrama muestra los recursos que se planea utilizar, en el que se puede observar las redes privadas y públicas en dos zonas de disponibilidad, los grupos de seguridad y la puerta de enlace a Internet.
-![alt text](/images/image.png)
+
+![alt text](/images/img-1.png)
+
+AWS facilita este proceso mediante su asistente de configuración de VPC. Para comenzar, simplemente se accede a la consola de AWS, buscamos el servicio de VPC en el catálogo y se elige la opción “Crear VPC” que redirige a un panel para la creación y configuración de la nube privada.
